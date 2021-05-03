@@ -1,10 +1,45 @@
 body {
   font-family: sans-serif;
 }
+.js-todo {
+  float: center;
+}
+
+.form,
+.greetings {
+  font-size: 40px;
+  margin: 30px;
+}
+.mm {
+  right: 200px;
+}
+
+.js-weather {
+  color: palegreen;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+.js-clock {
+  text-align: center;
+
+  color: peachpuff;
+  font-size: 60px;
+  margin: 100px;
+
+  height: 200px;
+}
+.js-date {
+  text-align: center;
+  font-size: 300%;
+  color: whitesmoke;
+  font-weight: bold;
+}
 
 .form,
 .greetings {
   display: none;
+  color: white;
 }
 
 .showing {
@@ -28,4 +63,25 @@ body {
   to {
     opacity: 1;
   }
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: whitesmoke;
+  margin: 5px;
+}
+input {
+  height: 30px;
+  width: 300px;
+  border-radius: 30px;
+  border: 1px solid saddlebrown;
+  padding: 0 10px;
+  outline: none;
 }
